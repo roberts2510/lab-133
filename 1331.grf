@@ -1,0 +1,85 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.00583091
+xMax = 0.24416909
+xTickUnit = 0.01
+xGridUnit = 0.01
+xLabel = Q, л/c
+yMin = -20.20218262
+yMax = 479.79781738
+yTickUnit = 50
+yGridUnit = 50
+yLabel = dP, Па
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,22,clBlack,B
+ShowLegend = 0
+Radian = 1
+Title = dP(Q)
+
+[PointSeries1]
+FillColor = clBlack
+LineColor = clMedGray
+Size = 10
+Style = 0
+Font = Tahoma,12,clBlack,B
+LabelPosition = 1
+PointCount = 3
+Points = 0.07,82.45;0.085,106.238;0.098,136.37;
+LegendText = Ряд 1
+
+[PointSeries2]
+FillColor = clBlack
+LineColor = clMedGray
+Size = 10
+Style = 0
+Font = Tahoma,12,clBlack,B
+LabelPosition = 1
+PointCount = 2
+Points = 0.14,403.76;0.101,169.66;
+LegendText = Ряд 2
+
+[Func1]
+FuncType = 0
+y = 1917.05942275*x-53.31934465
+LegendText = f(x)=1917.0594*x-53.3193; R²=0.9882
+From = 0.0674
+To = 0.0937
+Color = clLime
+
+[Func2]
+FuncType = 0
+y = 6002.56410256*x-436.59897436
+LegendText = f(x)=6002.5641*x-436.599; R²=1
+From = 0.0937
+To = 0.1423
+Color = clBlue
+
+[Label1]
+Placement = 0
+Pos = 0.0728862973760933;76.298354931802
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\f0\\fs36 y=1917x-53\\lang1049\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = 0.114067055393586;242.048011052847
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs36 y=6003x-436\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 2
+FuncCount = 2
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

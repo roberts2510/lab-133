@@ -1,0 +1,61 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -6.32820699973761
+xMax = -5.42820699973761
+xTickUnit = 0.05
+xGridUnit = 0.05
+xLabel = Ln2
+xAxisCross = -27.5
+yMin = -27.609646552931
+yMax = -25.640104752931
+yTickUnit = 0.2
+yGridUnit = 0.2
+yLabel = Ln1
+yAxisCross = -6.3
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,26,clBlack,B
+ShowLegend = 0
+Radian = 1
+Title = Ln1(ln2)
+
+[PointSeries1]
+FillColor = clNavy
+LineColor = clMedGray
+Size = 10
+Style = 6
+Font = Tahoma,12,clBlack,B
+LabelPosition = 1
+PointCount = 2
+Points = -6.25,-27.02;-5.83,-25.8;
+LegendText = Ряд 1
+
+[Func1]
+FuncType = 0
+y = 2.9047619*x-8.8652381
+LegendText = f(x)=2.9048*x-8.8652; R²=1
+From = -6.29
+To = -5.8
+Color = clBlue
+
+[Label1]
+Placement = 0
+Pos = -6.10386297641399;-26.6135564471839
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\f0\\fs36 y=2.9x-8,87\\lang1049\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 1
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

@@ -1,0 +1,68 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -3.5266285300433
+xMax = 149.466847581068
+xTickUnit = 5
+xGridUnit = 5
+xLabel = l, cm
+yMin = -8.26562823233708
+yMax = 188.440269627745
+yTickUnit = 20
+yGridUnit = 20
+yLabel = P, Па
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,24,clBlack,B
+LegendFont = Times New Roman,22,clBlack
+ShowLegend = 1
+Radian = 1
+Title = P(l)
+
+[PointSeries1]
+FillColor = clBlack
+LineColor = clMedGray
+Size = 10
+Style = 2
+Font = Tahoma,12,clBlack,B
+LabelPosition = 1
+PointCount = 2
+Points = 11.4,39.6;41.4,72.94;
+LegendText = 1 трубка
+
+[PointSeries2]
+FillColor = clGreen
+LineColor = clMedGray
+Size = 10
+Style = 3
+Font = Tahoma,12,clBlack,B
+LabelPosition = 1
+PointCount = 4
+Points = 11.4,49.15;41.4,84;81.4,118.9;131.4,163.32;
+LegendText = 2 трубка
+
+[PointSeries3]
+FillColor = clBlack
+LineColor = clMedGray
+Size = 10
+Style = 2
+Font = Tahoma,12,clBlack,B
+LabelPosition = 1
+PointCount = 2
+Points = 81.4,122;131.4,179.18;
+ShowInLegend = 0
+LegendText = Ряд 1
+
+[Data]
+TextLabelCount = 0
+FuncCount = 0
+PointSeriesCount = 3
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
